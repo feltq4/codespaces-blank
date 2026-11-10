@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "extranightvision",
+  "version": "${version}",
+  "name": "Extra Night Vision",
+  "description": "Client-side hitbox resizer with a GUI, keybinds and a session friends list. Despite the name, this mod has nothing to do with night vision.",
+  "authors": [ "You" ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [ "com.extranightvision.ExtraNightVisionClient" ]
+  },
+  "mixins": [ "extranightvision.mixins.json" ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
